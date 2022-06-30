@@ -5,10 +5,10 @@ import { Home } from './views/Home';
 function App() {
   return (
     <Routes>
-      <Route path='/' element={<Home />} />
+      <Route path='/Emart99' element={<Home />} />
       <Route
         path="*"
-        element={<Navigate to="/" replace />}
+        element={<Navigate to="/Emart99" replace />}
       />
     </Routes>
 
