@@ -1,6 +1,9 @@
      body{
       background-color: #dedad6;
      }
+     .mainwrapper{
+        min-width: 375px;
+     }
      .coffe-cup {
          width: 70vw;
          height: 70vh;
