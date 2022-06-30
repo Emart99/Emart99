@@ -63,7 +63,7 @@ export const Home = () => {
                     <div className="row portfolio-difficult ">
                         <div className="col-md-6 col-12 mb-5 d-flex flex-column portfolio-difficult justify-content-center">
                             <h2>Difficult</h2>
-                            <p className="portfolio-subtext">its a responsive e-commerce type application that has 8 views, built with ReactJs + Bootstrap, Kotlin + Spring, Mysql, Graphql, Mongodb, Redis and Dockerized.</p>
+                            <p className="portfolio-subtext">its a responsive e-commerce type application that has 6 views, built with ReactJs + Bootstrap, Kotlin + Spring, Mysql, Neo4J, Mongodb, Redis and Dockerized.</p>
                             <button onClick={() => {
                                 window.open("https://github.com/Emart99/Difficult", "_blank")
                             }} className="btn btn-outline-light portfolio-button" >
@@ -86,7 +86,7 @@ export const Home = () => {
                         </Fade>
                         <div className="col-md-6 col-12 d-flex flex-column justify-content-center">
                             <h2 >RampApp</h2>
-                            <p className="portfolio-subtext">It's a mobile parking application, built with ReactNative + Paper, Kotlin + Spring, Mysql </p>
+                            <p className="portfolio-subtext">It's a mobile parking application, built with React Native + Paper, Kotlin + Spring, Mysql </p>
                             <button onClick={() => {
                                 window.open("https://github.com/Emart99/RampApp", "_blank")
                             }} className="btn btn-outline-light portfolio-button align-self-end">
