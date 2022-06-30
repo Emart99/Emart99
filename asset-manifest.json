@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/Emart99/static/css/main.17b74f1e.css",
-    "main.js": "/Emart99/static/js/main.d7c31cd1.js",
+    "main.js": "/Emart99/static/js/main.c0c3d4b3.js",
     "static/js/787.1ed0c42c.chunk.js": "/Emart99/static/js/787.1ed0c42c.chunk.js",
+    "static/media/EZEQUIELMARTINO.docx": "/Emart99/static/media/EZEQUIELMARTINO.956082b52db75c496224.docx",
     "index.html": "/Emart99/index.html",
     "static/media/github.svg": "/Emart99/static/media/github.0227446fcc99c35ec66691df90fd1558.svg",
     "static/media/linkedin.svg": "/Emart99/static/media/linkedin.ff0da65f31d8c4e2ad29fc3c074f537c.svg",
     "static/media/twitter.svg": "/Emart99/static/media/twitter.b8e20d045b5316d5f1f0b16205b13413.svg",
     "main.17b74f1e.css.map": "/Emart99/static/css/main.17b74f1e.css.map",
-    "main.d7c31cd1.js.map": "/Emart99/static/js/main.d7c31cd1.js.map",
+    "main.c0c3d4b3.js.map": "/Emart99/static/js/main.c0c3d4b3.js.map",
     "787.1ed0c42c.chunk.js.map": "/Emart99/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.17b74f1e.css",
-    "static/js/main.d7c31cd1.js"
+    "static/js/main.c0c3d4b3.js"
   ]
 }
