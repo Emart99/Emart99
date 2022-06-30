@@ -4,7 +4,6 @@ import { ReactComponent as GithubLogo } from "../components/Footer/github.svg"
 import { useForm, ValidationError } from "@formspree/react"
 import toast, { Toaster } from "react-hot-toast"
 import Fade from 'react-reveal/Fade';
-import Pulse from 'react-reveal/Pulse';
 import CV from "../assets/EZEQUIELMARTINO.docx"
 
 export const Home = () => {
@@ -23,7 +22,7 @@ export const Home = () => {
     return (
         <div className="mainwrapper">
             <Navb />
-            <Pulse duration={2000} >
+            
                 <header id="coffe" className="container-fluid descripcion">
                     <div className="row ">
                         <div className="col-12 col-md-6 text-white align-self-center mb-5 text-center">
@@ -35,12 +34,14 @@ export const Home = () => {
                                 <button className="btn btn-outline-light ">Download my resume</button>
                             </a>
                         </div>
+                        <Fade right duration={1500} >
                         <div className="col-12 col-md-6 justify-content-center">
                             <img className="coffe-cup " src="https://www.picng.com/upload/mug_coffee/png_mug_coffee_12098.png" alt="..." />
                         </div>
+                        </Fade>
                     </div>
                 </header>
-            </Pulse>
+            
             <section className="about d-flex align-items-center" id="about">
                 <div className="container">
                     <div className="row">
