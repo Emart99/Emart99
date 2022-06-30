@@ -5,7 +5,7 @@ import { useForm, ValidationError } from "@formspree/react"
 import toast, { Toaster } from "react-hot-toast"
 import Fade from 'react-reveal/Fade';
 import Pulse from 'react-reveal/Pulse';
-
+import CV from "../assets/EZEQUIELMARTINO.docx"
 
 export const Home = () => {
     const [state, handleSubmit] = useForm("xwkyjzje")
@@ -31,7 +31,9 @@ export const Home = () => {
                             <h1>Im a full-stack web developer</h1>
                             <div className="coffe-texture" />
                             <br/>
-                            <button className="btn btn-outline-light ">Download my resume</button>
+                            <a href={CV} download="EZEQUIELMARTINO.docx">
+                                <button className="btn btn-outline-light ">Download my resume</button>
+                            </a>
                         </div>
                         <div className="col-12 col-md-6 justify-content-center">
                             <img className="coffe-cup " src="https://www.picng.com/upload/mug_coffee/png_mug_coffee_12098.png" alt="..." />
