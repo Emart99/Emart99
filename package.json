@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "homepage": "https://Emart99.github.io",
   "resolutions": {
     "autoprefixer": "10.4.5"
