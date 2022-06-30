@@ -26,10 +26,12 @@ export const Home = () => {
             <Pulse duration={2000} >
                 <header id="coffe" className="container-fluid descripcion">
                     <div className="row ">
-                        <div className="col-12 col-md-6  text-center text-white align-self-center mb-5 ">
+                        <div className="col-12 col-md-6 text-white align-self-center mb-5 text-center">
                             <p className="descripcion-text">Hello, im Ezequiel Martino</p>
                             <h1>Im a full-stack web developer</h1>
                             <div className="coffe-texture" />
+                            <br/>
+                            <button className="btn btn-outline-light ">Download my resume</button>
                         </div>
                         <div className="col-12 col-md-6 justify-content-center">
                             <img className="coffe-cup " src="https://www.picng.com/upload/mug_coffee/png_mug_coffee_12098.png" alt="..." />
