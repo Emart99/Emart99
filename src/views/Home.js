@@ -54,7 +54,7 @@ export const Home = () => {
                     <div className="row portfolio-difficult ">
                         <div className="col-md-6 col-12 mb-5 d-flex flex-column portfolio-difficult justify-content-center">
                             <h2>Difficult</h2>
-                            <p className="portfolio-subtext">its a responsive e-commerce type application that has 8 views, built with ReactJs + Bootstrap, Kotlin + Spring, Mysql, Neo4J, Mongodb, Redis and Dockerized.</p>
+                            <p className="portfolio-subtext">its a responsive e-commerce type application that has 6 views, built with ReactJs + Bootstrap, Kotlin + Spring, Mysql, Neo4J, Mongodb, Redis and Dockerized.</p>
                             <button onClick={() => {
                                 window.open("https://github.com/Emart99/Difficult", "_blank")
                             }} className="btn btn-outline-light portfolio-button" >
@@ -68,10 +68,10 @@ export const Home = () => {
                         </Fade>
                     </div>
                     <br />
-                    <hr className="solid hidden?" />
+                    <hr className="solid" />
                     <div className="row portfolio-rampapp">
                         <Fade duration={1500} left>
-                            <div className="col-md-6 col-12 mb-5 d-flex flex-column align-items-center">
+                            <div className="col-md-6 col-12 mb-2 d-flex flex-column align-items-center">
                                 <img src="https://i.imgur.com/tpn4YbZ.gif" alt="..." className="portfolio-mobile-image" />
                             </div>
                         </Fade>
@@ -80,7 +80,7 @@ export const Home = () => {
                             <p className="portfolio-subtext">It's a mobile parking application, built with React Native + Paper, Kotlin + Spring, Mysql </p>
                             <button onClick={() => {
                                 window.open("https://github.com/Emart99/RampApp", "_blank")
-                            }} className="btn btn-outline-light portfolio-button align-self-end">
+                            }} className="btn btn-outline-light portfolio-button mb-5 align-self-end">
                                 <GithubLogo className="github-button" /> Source code
                             </button>
                         </div>

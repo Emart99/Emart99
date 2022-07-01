@@ -124,6 +124,9 @@
      
 
      @media(max-width:767px){
+        .portfolio-rampapp{
+         flex-direction: column-reverse;
+        }
         .coffe-cup{
             height: 100%;
             width: 100%;
