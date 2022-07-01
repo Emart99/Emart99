@@ -5,9 +5,11 @@ import { useForm, ValidationError } from "@formspree/react"
 import toast, { Toaster } from "react-hot-toast"
 import Fade from 'react-reveal/Fade';
 import CV from "../assets/EZEQUIELMARTINO.docx"
-
+import { ContactMobile } from "../components/ContactMobile/ContactMobile.js"
+import { useState } from "react"
 export const Home = () => {
     const [state, handleSubmit] = useForm("xwkyjzje")
+    const [show, setShow] = useState(false);
 
     const RealHandleSubmit = async (e) => {
         e.preventDefault()
@@ -15,6 +17,7 @@ export const Home = () => {
             if (response.body.error) {
                 return toast.error(response.body.error)
             }
+            setShow(false)
             return toast.success("Message sent")
         })
     }
@@ -63,7 +66,7 @@ export const Home = () => {
                     <div className="row portfolio-difficult ">
                         <div className="col-md-6 col-12 mb-5 d-flex flex-column portfolio-difficult justify-content-center">
                             <h2>Difficult</h2>
-                            <p className="portfolio-subtext">its a responsive e-commerce type application that has 6 views, built with ReactJs + Bootstrap, Kotlin + Spring, Mysql, Neo4J, Mongodb, Redis and Dockerized.</p>
+                            <p className="portfolio-subtext">its a responsive e-commerce type application that has 8 views, built with ReactJs + Bootstrap, Kotlin + Spring, Mysql, Neo4J, Mongodb, Redis and Dockerized.</p>
                             <button onClick={() => {
                                 window.open("https://github.com/Emart99/Difficult", "_blank")
                             }} className="btn btn-outline-light portfolio-button" >
@@ -101,20 +104,17 @@ export const Home = () => {
                     <div className="row">
                         <div className="col-md-6 col-12 contact-info ">
                             <h1>Let's get in touch</h1>
-                            <div className="mt-5 mb-4 "></div>
                             <h5>Email</h5>
-                            <p>ezequielmartino1999@gmail.com</p>
-                            <br />
+                            <p className="contact-text"> ezequielmartino1999@gmail.com</p>
                             <h5>Telephone</h5>
-                            <p>+54 11-3771-0208</p>
-                            <br />
+                            <p className="contact-text">+54 11-3771-0208</p>
                             <h5>Address</h5>
-                            <p>Jose Hernandez 3964 , Villa Ballester, Buenos Aires, Argentina</p>
-                            <br />
+                            <p className="contact-text">Jose Hernandez 3964 , Villa Ballester, Buenos Aires, Argentina</p>
                             <Footer />
-
                         </div>
-                        <form onSubmit={RealHandleSubmit} className="col-md-6  col-12">
+                        <ContactMobile state={state} ValidationError={ValidationError} RealHandleSubmit={RealHandleSubmit} show={show} setShow={setShow} />
+
+                        <form onSubmit={RealHandleSubmit} className="col-md-6 col-12 hiddenMobile">
                             <div className="form-floating mb-3">
                                 <input placeholder="a" type="text" name="name" className="form-control" id="full-name" />
                                 <label htmlFor="full-name">Name</label>
@@ -131,13 +131,12 @@ export const Home = () => {
                             </div>
                             <ValidationError prefix="Telephone" field="telephone" errors={state.errors} />
                             <div className="form-floating mb-3">
-                                <textarea placeholder="a" name="message" className="form-control" style={{ height: 206 }} id="message"></textarea>
+                                <textarea placeholder="a" name="message" className="form-control contact-message" id="message"></textarea>
                                 <label htmlFor="message">&nbsp;&nbsp;Message</label>
                             </div>
                             <ValidationError prefix="Message" field="message" errors={state.errors} />
                             <button type="submit" disabled={state.submitting} className=" btn btn-outline-dark btn-block col-6 col-md-4 m-auto mt-4">Send</button>
                         </form>
-
                     </div>
                 </div>
             </section>
