@@ -1,11 +1,11 @@
 import {ReactComponent as TwitterLogo} from "./twitter.svg"
 import {ReactComponent as GithubLogo} from "./github.svg"
 import {ReactComponent as LinkedinLogo} from "./linkedin.svg"
-import "./Footer.css"
-export function Footer(){
+import "./MediaButtons.css"
+export function MediaButtons(){
     return (
-        <footer className="Footer py-4 ">
-            <ul className="nav col-md-12  list-unstyled d-flex gap-4">
+        <footer className="py-4 ">
+            <ul className="nav col-md-12  list-unstyled d-flex MediaButtons-icons gap-4">
                 <a rel="noreferrer" href="https://twitter.com" target="_blank">
                     <TwitterLogo className="white-icon" />
                 </a>

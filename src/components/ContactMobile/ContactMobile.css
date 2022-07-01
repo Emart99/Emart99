@@ -6,8 +6,12 @@
     border-bottom:0;
 }
 
-.contact-form{
-    padding-top:0vh;
-    width: 70%;
-    margin: auto;
+
+@media(max-width:767px){
+    .contact-form{
+        padding-top:0vh;
+        width: 70%;
+        margin: auto;
+    }
+    
 }

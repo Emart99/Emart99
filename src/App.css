@@ -2,7 +2,7 @@
       background-color: #dedad6;
      }
      .mainwrapper{
-        min-width: 375px;
+        min-width: 370px;
      }
      .coffe-cup {
          width: 70vw;
@@ -136,6 +136,7 @@
          display: block;
         }
         .contact{
+         text-align: center;
         }
         .portfolio-button{
          margin-left:auto;
