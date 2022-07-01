@@ -14,24 +14,24 @@ export const Home = () => {
     return (
         <div className="mainwrapper">
             <Navb />
-                <section id="coffe" className="container-fluid descripcion">
-                    <div className="row ">
-                        <div className="col-12 col-md-6 text-white align-self-center mb-5 text-center">
-                            <p className="descripcion-text">Hello, im Ezequiel Martino</p>
-                            <h1>Im a full-stack web developer</h1>
-                            <div className="coffe-texture" />
-                            <br/>
-                            <a href={CV} download="EZEQUIELMARTINO.docx">
-                                <button className="btn btn-outline-light ">Download my resume</button>
-                            </a>
-                        </div>
-                        <Fade right duration={1500} >
+            <section id="coffe" className="container-fluid descripcion">
+                <div className="row ">
+                    <div className="col-12 col-md-6 text-white align-self-center mb-5 text-center">
+                        <p className="descripcion-text">Hello, im Ezequiel Martino</p>
+                        <h1>Im a full-stack web developer</h1>
+                        <div className="coffe-texture"/>
+                        <br />
+                        <a href={CV} download="EZEQUIELMARTINO.docx">
+                            <button className="btn btn-outline-light ">Download my resume</button>
+                        </a>
+                    </div>
+                    <Fade right duration={1500} >
                         <div className="col-12 col-md-6 justify-content-center">
                             <img className="coffe-cup " src="https://www.picng.com/upload/mug_coffee/png_mug_coffee_12098.png" alt="..." />
                         </div>
-                        </Fade>
-                    </div>
-                </section>
+                    </Fade>
+                </div>
+            </section>
             <section className="about d-flex align-items-center" id="about">
                 <div className="container">
                     <div className="row">
@@ -100,7 +100,7 @@ export const Home = () => {
                             <MediaButtons />
                         </div>
                         <ContactMobile show={show} setShow={setShow} />
-                        <ContactForm setShow={setShow} hidden={"hiddenMobile"}/>
+                        <ContactForm setShow={setShow} hidden={"hiddenMobile"} />
                     </div>
                 </div>
             </section>

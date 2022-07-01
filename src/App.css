@@ -1,5 +1,5 @@
      body{
-      background-color: #dedad6;
+      background-color: #212529;
      }
      .mainwrapper{
         min-width: 370px;
@@ -21,7 +21,7 @@
      }
 
      .descripcion {
-         background-color: #212529;
+         
          height: 100vh;
          overflow: hidden;
          display: flex;
