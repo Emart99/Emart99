@@ -14,7 +14,7 @@ export const Home = () => {
     return (
         <div className="mainwrapper">
             <Navb />
-                <header id="coffe" className="container-fluid descripcion">
+                <section id="coffe" className="container-fluid descripcion">
                     <div className="row ">
                         <div className="col-12 col-md-6 text-white align-self-center mb-5 text-center">
                             <p className="descripcion-text">Hello, im Ezequiel Martino</p>
@@ -31,8 +31,7 @@ export const Home = () => {
                         </div>
                         </Fade>
                     </div>
-                </header>
-            
+                </section>
             <section className="about d-flex align-items-center" id="about">
                 <div className="container">
                     <div className="row">
