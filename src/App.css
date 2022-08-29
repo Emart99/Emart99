@@ -1,170 +1,29 @@
-     body{
-      background-color: #212529;
-     }
-     .mainwrapper{
-        min-width: 370px;
-     }
-     .coffe-cup {
-         width: 70vw;
-         height: 70vh;
-         object-fit: contain ;
-     }
-     .coffe-texture{
-      right: 60%;
-      top:40%;
-      position: absolute;
-      z-index: -999;
-      width: 150px;
-      height: 150px;
-      background-color: #212529;
-      background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23dedad6' fill-opacity='0.35' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E");
-     }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-     .descripcion {
-         
-         height: 100vh;
-         overflow: hidden;
-         display: flex;
-         align-items: center;
-     }
-     .descripcion-text{
-        font-size:25px;
-        opacity: 0.7;
-     }
+.footer{
+    min-height: 15vh;
+}
+.content{
+    overflow: hidden;
+}
+.navbar{
+    min-height: 10vh;
+}
+.content{
+    min-height: 90vh;
+}
+.coffe-cup {
+    width: 70vw;
+    height: 70vh;
+    object-fit: contain; 
+}
+img{
+    max-width: none;
+}
 
-     .about {
-         height: 100vh;
-         display: flex;
-         align-items: center;
-         background-color: #dedad6;
-     }
-     .about-image{
-      width: 100%;
-      height: 100%;
-     }
-     .about-text{
-      display:flex;  
-      align-items:center;
-      font-size:20px;
-     }
+.container{
+    max-width: 100%;
+}
 
-     .portfolio {
-         background-color: #212529;
-         height: 100%;
-         display: flex;
-         align-items: center;
-         padding-top:25vh;
-         padding-bottom:20vh;
-     }
-     .portfolio-image{
-      width: 100%;
-      height: 100%;
-     }
-     .portfolio-mobile-image{
-      height: 100%;
-      width: 50%;
-     }
-     .portfolio-button{
-      width: 50%;
-     }
-     .portfolio-difficult{
-      margin-bottom:20vh;
-     }
-     .portfolio-rampapp{
-      margin-top:20vh;
-     }
-     .portfolio-subtext{
-      font-size:20px;
-     }
-     .github-button{
-       height: 18px;
-       width: 18px;
-       color:white;
-     }
-
-     .contact {
-         height: 100vh;
-         display: flex;
-         align-items: center;
-         background-color: #dedad6;
-     }
-
-     .contact-message{
-      height: 200px !important;
-     }
-
-     .btn{
-        border-radius: 0;
-     }
-     .form-control{
-        border: 0;
-        border-radius: 0;
-        background-color: #c4c0bd;
-     }
-     .contact-info{ 
-        margin-bottom:20px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center; 
-     }
-     .contact-text{
-      margin-bottom:30px;
-     }
-     .form-control:focus{
-        background-color: #c4c0bd;
-        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 4px #aaa5a1;
-     }
-     .btn:focus{
-        box-shadow:none;
-     }
-     .hiddenDesktop{
-         display:none;
-     }
-   
-     
-
-     @media(max-width:767px){
-        .portfolio-rampapp{
-         flex-direction: column-reverse;
-        }
-        .coffe-cup{
-            height: 100%;
-            width: 100%;
-        }
-        .coffe-texture{
-            top:20%;
-            right: 20%;
-        }
-        .hiddenDesktop{
-         display: block;
-        }
-        .contact{
-         text-align: center;
-        }
-        .portfolio-button{
-         margin-left:auto;
-        }
-        .hiddenMobile{
-         display:none;
-        }
-      }
-      @media(max-height:500px){
-         .contact-message{
-            height: 58px !important;
-           }
-           .contact{
-            height: 100%;
-            padding-top: 20vh ;
-           }
-           .about{
-            height: 100%;
-            padding-top:10vh;
-           }
-           .descripcion{
-            height: 100%;
-            padding-top:30vh ;
-            padding-bottom:10vh;
-           }
-      }
-     
- 
