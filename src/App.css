@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+html{scroll-behavior:smooth}
 
 .footer{
     min-height: 15vh;
@@ -14,11 +15,17 @@
 .content{
     min-height: 90vh;
 }
+.contact{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1024%26quot%3b)' fill='none'%3e%3cpath d='M-127.13 56.1C128 67.41 264.25 462.44 793.42 498.9 1322.58 535.36 1438.98 1083.54 1713.96 1110.58' stroke='rgba(154%2c 144%2c 171%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M-356.49 511.52C-141.92 533.89-36.91 981.16 356.58 997.52 750.06 1013.88 885.59 1179.21 1069.64 1180.66' stroke='rgba(154%2c 144%2c 171%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M-298.34 440.11C-165.64 441.23-41.65 575.11 215.04 575.11 471.72 575.11 434.66 420.84 728.41 440.11 1022.17 459.38 1039.11 1067.76 1241.79 1151.64' stroke='rgba(154%2c 144%2c 171%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M-290.64 512.52C-148.66 513.5-14.8 647.52 261.03 647.52 536.87 647.52 505.85 498.24 812.7 512.52 1119.55 526.8 1157.76 1118.45 1364.37 1188.23' stroke='rgba(154%2c 144%2c 171%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M-13.05 57.57C123.24 58.63 251.05 192.57 515.15 192.57 779.25 192.57 696.85-5.82 1043.35 57.57 1389.85 120.96 1328.96 952.32 1571.55 1124.92' stroke='rgba(154%2c 144%2c 171%2c 1)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1024'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}
+    
 .coffe-cup {
+    filter: drop-shadow(2px 4px 6px black);
     width: 70vw;
     height: 70vh;
     object-fit: contain; 
 }
+
 img{
     max-width: none;
 }
@@ -26,4 +33,20 @@ img{
 .container{
     max-width: 100%;
 }
+.svg-second{
+    top: 100%;
+    transform: rotate(180deg);
+}
+.artboard.phone-1{
+    width: 260px;
+    height: 480px ;
+}
+.mockup-phone{
+    margin: 0;
+}
 
+@media (max-width: 767px) { 
+    .coffe-cup{
+        height: auto;
+    }
+ }

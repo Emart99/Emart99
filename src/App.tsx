@@ -23,13 +23,12 @@ function App() {
       <BrowserRouter>
         <NavBar theme={theme} switchTheme={switchTheme}/>
         <Routes>
-          <Route path='/Emart99' element={<Home />} />
+          <Route path='/Emart99' element={<Home theme={theme} />} />
           <Route
             path="*"
             element={<Navigate to="/Emart99" replace />}
           />
         </Routes>
-        <Footer />
       </BrowserRouter>
     </div>
   );
