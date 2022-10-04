@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Emart99/static/css/main.da22b5a9.css",
-    "main.js": "/Emart99/static/js/main.001ed0f7.js",
+    "main.css": "/Emart99/static/css/main.538de697.css",
+    "main.js": "/Emart99/static/js/main.d992c20d.js",
     "static/js/787.1ed0c42c.chunk.js": "/Emart99/static/js/787.1ed0c42c.chunk.js",
     "static/media/EZEQUIELMARTINO.docx": "/Emart99/static/media/EZEQUIELMARTINO.956082b52db75c496224.docx",
-    "static/media/github.svg": "/Emart99/static/media/github.0227446fcc99c35ec66691df90fd1558.svg",
-    "static/media/linkedin.svg": "/Emart99/static/media/linkedin.ff0da65f31d8c4e2ad29fc3c074f537c.svg",
+    "static/media/github.svg": "/Emart99/static/media/github.19869d51f356b05573f8544aa3ead626.svg",
+    "static/media/linkedin.svg": "/Emart99/static/media/linkedin.17b95b9ad3dfcc4a827b11c2ae89c543.svg",
     "index.html": "/Emart99/index.html",
-    "static/media/twitter.svg": "/Emart99/static/media/twitter.b8e20d045b5316d5f1f0b16205b13413.svg",
-    "main.da22b5a9.css.map": "/Emart99/static/css/main.da22b5a9.css.map",
-    "main.001ed0f7.js.map": "/Emart99/static/js/main.001ed0f7.js.map",
+    "static/media/twitter.svg": "/Emart99/static/media/twitter.b65cdf2f9ffd4babdfc9383e77fb535a.svg",
+    "main.538de697.css.map": "/Emart99/static/css/main.538de697.css.map",
+    "main.d992c20d.js.map": "/Emart99/static/js/main.d992c20d.js.map",
     "787.1ed0c42c.chunk.js.map": "/Emart99/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.da22b5a9.css",
-    "static/js/main.001ed0f7.js"
+    "static/css/main.538de697.css",
+    "static/js/main.d992c20d.js"
   ]
 }
