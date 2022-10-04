@@ -84,6 +84,24 @@ export const Home = () => {
                             </button>
                         </div>
                     </div>
+                    <br />
+                    <hr className="solid"/>
+                    <div className="row portfolio-dsbot ">
+                        <div className="col-md-6 col-12 mb-5 d-flex flex-column portfolio-difficult justify-content-center">
+                            <h2>iNF-dsbot</h2>
+                            <p className="portfolio-subtext">It's a discord bot made with java, discord4j and uses youtubeApi to reprocue music.</p>
+                            <button onClick={() => {
+                                window.open("https://github.com/Emart99/iNF-discordBot", "_blank")
+                            }} className="btn btn-outline-light portfolio-button" >
+                                <GithubLogo className="github-button" /> Source code
+                            </button>
+                        </div>
+                        <Fade duration={1500} right>
+                            <div className="col-md-6 col-12">
+                                <img src="https://docs.discord4j.com/img/logo.svg" alt="..." className="portfolio-image" />
+                            </div>
+                        </Fade>
+                    </div>
                 </div>
             </section>
             <section className="contact" id="contact">
