@@ -21,7 +21,7 @@ export const Home = () => {
                         <h1>Im a full-stack web developer</h1>
                         <div className="coffe-texture"/>
                         <br />
-                        <a href={CV} download="EZEQUIELMARTINO.docx">
+                        <a href={CV} download="EZEQUIELMARTINO.pdf">
                             <button className="btn btn-outline-light ">Download my resume</button>
                         </a>
                     </div>
@@ -89,7 +89,7 @@ export const Home = () => {
                     <div className="row portfolio-dsbot ">
                         <div className="col-md-6 col-12 mb-5 d-flex flex-column portfolio-difficult justify-content-center">
                             <h2>iNF-dsbot</h2>
-                            <p className="portfolio-subtext">It's a discord bot made with java, discord4j and uses youtubeApi to reprocue music.</p>
+                            <p className="portfolio-subtext">It's a discord bot made with java, discord4j and uses youtubeApi to reproduce music.</p>
                             <button onClick={() => {
                                 window.open("https://github.com/Emart99/iNF-discordBot", "_blank")
                             }} className="btn btn-outline-light portfolio-button" >
