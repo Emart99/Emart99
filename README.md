@@ -8,7 +8,7 @@ Web Developer
 * 🖥️  See my portfolio at [ezequiel-martino-portfolio.netlify.app/](http://ezequiel-martino-portfolio.netlify.app/)
 * ✉️  You can contact me at [ezequielmartino1999@gmail.com](mailto:ezequielmartino1999@gmail.com)
 * 🚀  I'm currently working on [cool-metronome](http://coolmetronome.netlify.app/)
-* 🧠  I'm learning some Spring Security
+* 🧠  I'm learning some Spring Security and Microservices
 * 🤝  I'm open to collaborating on cool projects
 
 ### Skills
